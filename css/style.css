@@ -1,0 +1,269 @@
+@import "../css/fonts.css";
+
+body {
+    font-family: "Sequel Sans";
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.promo {
+    background: #66BF84;
+    height: 28px;
+    color: #FFF;
+    font-family: "Sequel Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 0 12px 100px;
+    display: flex;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.time {
+    width: 52.806px;
+    height: 22.761px;
+    border-radius: 11.381px;
+    border: 0.91px solid #FFF;
+    display: inline-block;
+    margin-left: 17.61px;
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.promo_button {
+    color: #228F47;
+    font-size: 13.11px;
+    font-style: normal;
+    width: 103px;
+    height: 23px;
+    border-radius: 11.381px;
+    background: #FFF;
+    border: #FFF;
+    margin-left: 52.42px;
+    cursor: pointer;
+}
+
+.ml-127 {
+    margin-left: 127px;
+}
+
+.header_nav {
+    display: flex;
+}
+
+.header_logo {
+    margin: 21px 0 18px 99px;
+    display: inline-block;
+}
+
+.header_input {
+    width: 610px;
+    height: 31px;
+    border-radius: 15px;
+    border: 1px solid #6C6C6C;
+    background: #FFF;
+    display: inline-block;
+    margin: 31px 0 0 92px;
+}
+
+.header_input::placeholder {
+    color: #A1A1A1;
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 23px;
+}
+
+.title {
+    color: #0E4A22;
+    font-size: 69.357px;
+    font-style: normal;
+    line-height: 93%;
+    width: 650px;
+    margin-left: 98px;
+    padding: 80px 0 0 0;
+    font-weight: bold;
+}
+
+.header_image {
+    background: url(../img/unsplash_sTPy-oeA3h0.png), lightgray 50% / cover no-repeat;
+    width: 1240px;
+    height: 300px;
+    margin-left: 98px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.sale {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sale_cards {
+    display: inline-block;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.card {
+    width: 190px;
+    height: 275px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+    padding-top: 23px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.card_title {
+    color: #000;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.subtitle {
+    color: #A1A1A1;
+    font-size: 10px;
+    font-weight: 410;
+    line-height: normal;
+}
+
+.price {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: 36px;
+}
+
+.discount {
+    width: 30.667px;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: 7.145px;
+    background: #66BF84;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 410;
+    line-height: normal;
+    padding-bottom: 3px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.old_price {
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 410;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+.basket {
+    width: 84px;
+    height: 23px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #228F47;
+    color: #228F47;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    display: block;
+    margin: 10px 0 14px 53px;
+}
+
+.review {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.review-card {
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+    background: #FFF;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.footer_nav {
+    width: 1440px;
+    height: 591px;
+    border-radius: 25px 25px 0px 0px;
+    background: #F9F9F9;
+    box-shadow: 0px -6px 4px 0px rgba(233, 233, 233, 0.25);
+    position: relative;
+}
+
+.footer_img {
+   display: inline-block;
+}
+
+.footer_title {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.footer_list {
+    padding-top: 48px;
+    height: 150px;
+    width: 216px;
+    height: 383px;
+    flex-shrink: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+.ml-100px {
+    margin-left: 100px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.mt-30px {
+    margin-top: 30px;
+}

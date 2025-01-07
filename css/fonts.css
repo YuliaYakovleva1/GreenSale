@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sequel Sans';
+    src: local('SequelSans'), local('SequelSans'),
+    url('../fonts/SequelSansVFBody.woff2') format('woff2'),
+    url('../fonts/SequelSansVFBody.woff') format('woff'),
+    url('../fonts/SequelSansVFBody.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
